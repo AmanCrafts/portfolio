@@ -158,7 +158,7 @@ footer {
 }
 
 @media (max-width: 768px) {
-    .contact-illustration img {
+    .contact-illustration {
         display: none;
         width: 100%;
     height: auto;
@@ -166,7 +166,7 @@ footer {
 }
 
 @media (max-width: 768px) {
-    .contact-illustration img {
+    .contact-illustration {
     display: none;
     width: 100%;
     height: auto;
