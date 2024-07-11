@@ -103,6 +103,10 @@ footer {
 }
 
 @media (max-width:768px){
+    .description {
+        font-size: 16px;
+    }
+    
     .gallery-grid {
         display: flex;
         flex-direction: column;
@@ -116,7 +120,11 @@ footer {
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 480px) {
+    .description {
+        font-size: 14px;
+    }
+    
     .gallery-grid {
         display: flex;
         flex-direction: column;
