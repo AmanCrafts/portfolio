@@ -106,12 +106,12 @@ footer {
     .gallery-grid {
         display: flex;
         flex-direction: column;
-        gap: 10px;
+        gap: 20px;
         align-items: center;
     }
 
     .gallery-item {
-        width: 90%;
+        width: 100%;
         max-width: none;
     }
 }
@@ -120,12 +120,12 @@ footer {
     .gallery-grid {
         display: flex;
         flex-direction: column;
-        gap: 10px;
+        gap: 20px;
         align-items: center;
     }
 
     .gallery-item {
-        width: 90%;
+        width: 100%;
         max-width: none;
     }
 }
