@@ -29,6 +29,15 @@ main {
     margin: 20px 0;
 }
 
+.intro .tag2 {
+    display: inline-block;
+    padding: 5px 10px;
+    background: #0ae1b9;
+    color: #fff;
+    border-radius: 5px;
+    margin: 20px 0;
+}
+
 .intro .description {
     margin: 20px 0;
     font-size: 18px;
@@ -130,8 +139,9 @@ footer .container {
 }
 
 footer .academics,
-footer .extras {
-    width: 45%;
+footer .extras
+footer .skills {
+    width: 25%;
 }
 
 footer h2 {
