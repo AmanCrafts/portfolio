@@ -31,6 +31,7 @@ main {
     overflow: hidden;
     white-space: nowrap;
     animation: revealText 1.5s cubic-bezier(0.77, 0, 0.175, 1) forwards;
+    font-weight: 700;
 }
 
 .intro-content h1 span:first-child {
@@ -564,7 +565,7 @@ main {
     /* Update text styles for mobile */
     h1, h2, h3{
         font-family: inherit;
-        font-weight: 700;
+        font-weight: bold;
     }
 
     /* .experience-desc {
