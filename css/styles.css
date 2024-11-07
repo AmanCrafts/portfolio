@@ -562,7 +562,7 @@ main {
     }
 
     /* Update text styles for mobile */
-    h1, h2, h3, p, span, a {
+    h1, h2, h3 {
         font-family: inherit;
         font-weight: 700;
     }
