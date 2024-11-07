@@ -563,37 +563,39 @@ main {
 
     /* Update text styles for mobile */
     h1, h2, h3, p, span, a {
-        font-family: inherit;  /* Ensure font inheritance */
+        font-family: inherit;
+        font-weight: 700;
     }
 
     .experience-desc {
-        font-size: 0.85rem !important;  /* Force font size */
-        font-weight: 400;
+        font-size: 0.85rem !important;
+        font-weight: 500 !important;
         line-height: 1.4;
     }
 
     .experience-years {
         font-size: 1rem !important;
-        font-weight: 600;
+        font-weight: 700 !important;
     }
 
     .profile.mobile-only .experience-tag {
         width: 175%;
-        padding: 0.8rem;  /* Increased padding */
+        padding: 0.8rem;
         margin: 0.75rem 0;
     }
 
     .profile.mobile-only .experience-icon {
-        font-size: 1.4rem;  /* Increased icon size */
+        font-size: 1.4rem;
     }
 
     .profile.mobile-only .experience-years {
-        font-size: 0.95rem !important;  /* Adjusted size */
-        font-weight: 600;
+        font-size: 0.95rem !important;
+        font-weight: 700 !important;
     }
 
     .profile.mobile-only .experience-desc {
-        font-size: 0.85rem !important;  /* Increased from 0.45rem */
+        font-size: 0.85rem !important;
+        font-weight: 500 !important;
         line-height: 1.4;
     }
 }
