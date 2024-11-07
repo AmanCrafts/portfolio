@@ -560,6 +560,42 @@ main {
     .profile.mobile-only .experience-desc {
         font-size: 0.45rem;
     }
+
+    /* Update text styles for mobile */
+    h1, h2, h3, p, span, a {
+        font-family: inherit;  /* Ensure font inheritance */
+    }
+
+    .experience-desc {
+        font-size: 0.85rem !important;  /* Force font size */
+        font-weight: 400;
+        line-height: 1.4;
+    }
+
+    .experience-years {
+        font-size: 1rem !important;
+        font-weight: 600;
+    }
+
+    .profile.mobile-only .experience-tag {
+        width: 175%;
+        padding: 0.8rem;  /* Increased padding */
+        margin: 0.75rem 0;
+    }
+
+    .profile.mobile-only .experience-icon {
+        font-size: 1.4rem;  /* Increased icon size */
+    }
+
+    .profile.mobile-only .experience-years {
+        font-size: 0.95rem !important;  /* Adjusted size */
+        font-weight: 600;
+    }
+
+    .profile.mobile-only .experience-desc {
+        font-size: 0.85rem !important;  /* Increased from 0.45rem */
+        line-height: 1.4;
+    }
 }
 
 /* ------------------------------ Animations & Keyframes ------------------------------ */
