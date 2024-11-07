@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/contacts.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.7.0/fonts/remixicon.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <a href="../index.html" class="logo">Amanjeet</a>
+            <nav class="desktop-nav">
+                <ul>
+                    <li><a href="../index.html"><i class="ri-home-smile-line"></i> Home</a></li>
+                    <li><a href="artworks.html"><i class="ri-gallery-line"></i> Sketches</a></li>
+                    <li class="active"><a href="contacts.html"><i class="ri-chat-1-line"></i> Contacts</a></li>
+                </ul>
+            </nav>
+            <button class="hamburger" aria-label="Menu">
+                <span class="hamburger-box">
+                    <span class="hamburger-inner"></span>
+                </span>
+            </button>
+        </div>
+    </header>
+
+    <div class="mobile-nav-container">
+        <nav class="mobile-nav">
+            <a href="../index.html"><i class="ri-home-smile-line"></i> Home</a>
+            <a href="artworks.html"><i class="ri-gallery-line"></i> Sketches</a>
+            <a href="contacts.html" class="active"><i class="ri-chat-1-line"></i> Contacts</a>
+        </nav>
+    </div>
+
+    <div class="mobile-nav-overlay"></div>
+
+    <section class="contact">
+        <div class="contact-container">
+            <div class="contact-info">
+                <h1>Contact Me</h1>
+                <form>
+                    <div class="input-container">
+                        <i class="fas fa-user"></i>
+                        <input type="text" name="name" placeholder="Name" required>
+                    </div>
+                    <div class="input-container">
+                        <i class="fas fa-envelope"></i>
+                        <input type="email" name="email" placeholder="Email" required>
+                    </div>
+                    <div class="input-container">
+                        <i class="fas fa-comment"></i>
+                        <textarea name="message" placeholder="Message" required></textarea>
+                    </div>
+                    <button2 type="submit">Send Message</button2>
+                </form>
+            </div>
+            <div class="contact-illustration">
+                <img src="../content/contactill.webp" alt="Contact Illustration">
+            </div>
+        </div>
+    </section>
+
+    <section class="social">
+        <div class="social-container">
+            <h2>Social Links</h2>
+        </div>
+    </section>
+
+    <section class="icons">
+        <div class="icon-container">
+            <div class="social-icons">
+                <a href="mailto:theamanmalikarts@gmail.com" class="social-icon" target="_blank">
+                    <i class="fas fa-envelope"></i>
+                </a>
+                <a href="https://www.instagram.com/aman_.artist?igsh=ajYydnN4NGh2dWZw" class="social-icon" target="_blank">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/amanjeet-malik-707810298" class="social-icon" target="_blank">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <script src="../js/main.js"></script>
+</body>
+<footer>
+    <div class="footer-container">
+        <div class="footer-bottom">
+            <div class="footer-bottom-content">
+                <div class="creative-text">
+                    <i class="fas fa-magic"></i> Crafting Digital Experiences with Passion
+                </div>
+                <div class="copyright-text">
+                    <i class="fas fa-code copyright-icon"></i>
+                    <span>Created with</span>
+                    <i class="fas fa-heart heart-icon"></i>
+                    <span>by Amanjeet &copy; 2024</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+</html>

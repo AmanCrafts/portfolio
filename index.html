@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amanjeet Portfolio</title>
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.7.0/fonts/remixicon.css" rel="stylesheet">
+    
+    
+</head>
+ <body>
+    <header>
+        <div class="container">
+            <a href="index.html" class="logo" data-text="Amanjeet">Amanjeet</a>
+            <nav class="desktop-nav">
+                <ul>
+                    <li class="active"><a href="index.html"><i class="ri-home-smile-line"></i> Home</a></li>
+                    <li><a href="pages/artworks.html"><i class="ri-gallery-line"></i> Sketches</a></li>
+                    <li><a href="pages/contacts.html"><i class="ri-chat-1-line"></i> Contacts</a></li>
+                </ul>
+            </nav>
+            <button class="hamburger" aria-label="Menu">
+                <span class="hamburger-box">
+                    <span class="hamburger-inner"></span>
+                </span>
+            </button>
+        </div>
+    </header>
+
+    <div class="mobile-nav-container">
+        <nav class="mobile-nav">
+            <a href="index.html" class="active"><i class="ri-home-smile-line"></i> Home</a>
+            <a href="pages/artworks.html"><i class="ri-gallery-line"></i> Sketches</a>
+            <a href="pages/contacts.html"><i class="ri-chat-1-line"></i> Contacts</a>
+        </nav>
+    </div>
+
+    <div class="mobile-nav-overlay"></div>
+
+    <main>
+        <canvas id="backgroundCanvas"></canvas>
+        <div class="container">
+            <section class="intro">
+                <div class="intro-content">
+                    <h1> <span style="color: #10B981;">Hi! I Am</span> <span style="color: #F43F5E;">Amanjeet</span></h1>
+                    <div class="tags-container">
+                        <p class="tag">Artist</p>
+                        <p class="tag">Coder</p>
+                        <p class="tag">Freelancer</p>
+                        
+                    </div>
+
+                    <!-- Profile section moved here for mobile -->
+                    <div class="profile mobile-only">
+                        <img src="content/profile.jpg" alt="Amanjeet Malik">
+                        <div class="stats">
+                            <div class="experience-tag">
+                                <i class="fas fa-paint-brush experience-icon"></i>
+                                <div class="experience-text">
+                                    <span class="experience-years">6+ Years</span>
+                                    <span class="experience-desc">of Experience in Drawing</span>
+                                </div>
+                            </div>
+                            
+                            <!-- New Education Tag -->
+                            <div class="experience-tag">
+                                <i class="ri-code-s-slash-line experience-icon"></i>
+                                <div class="experience-text">
+                                    <span class="experience-years">CSE (AI & ML)</span>
+                                    <span class="experience-desc">Newton School of Technology</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <p class="description">
+                        An Undergrad Student from India with a profound passion for both Art and Technology. As an aspiring Game Developer, I am enthusiastic about combining my Artistic talents with my Technical Skills to create Innovative and Captivating Games. My goal is to merge creativity and technology to bring Unique Gaming Experiences to Life and to lead the Indian Game Development Industry to meet global standards.
+                    </p>
+                    
+                    <p class="description education">
+                        I am thrilled to have been accepted into the prestigious Newton School of Technology, Pune, where I am pursuing a B.Tech in Computer Science and Engineering with a specialization in Artificial Intelligence and Machine Learning. Newton School of Technology is renowned for its cutting-edge curriculum and commitment to producing industry-ready professionals. This opportunity will allow me to further hone my skills and achieve my dream of revolutionizing the gaming industry in India.
+                    </p>
+                    
+                    <div class="actions">
+                        <a href="pages/artworks.html" class="artworks-link">Artworks</a>
+                        <a href="pages/contacts.html" class="draw-btn">Want Your Sketch?</a>
+                    </div>
+                </div>
+
+                <!-- Profile section for desktop view -->
+                <div class="profile desktop-only">
+                    <img src="content/profile.jpg" alt="Amanjeet Malik">
+                    <div class="stats">
+                        <div class="experience-tag">
+                            <i class="fas fa-paint-brush experience-icon"></i>
+                            <div class="experience-text">
+                                <span class="experience-years">6+ Years</span>
+                                <span class="experience-desc">of Experience in Drawing</span>
+                            </div>
+                        </div>
+                        <div class="experience-tag">
+                            <i class="ri-code-s-slash-line experience-icon"></i>
+                            <div class="experience-text">
+                                <span class="experience-years">CSE (AI & ML)</span>
+                                <span class="experience-desc">Newton School of Technology</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h2><i class="fas fa-graduation-cap"></i> Education</h2>
+                    <ul>
+                        <li>
+                            <i class="fas fa-university"></i> B.Tech CSE (AI & ML) - Newton School of Technology
+                            <span>Aug 2024-Present</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-school"></i> Class 12 HBSE 2022
+                            <span>80%</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-school"></i> Class 10 HBSE 2020
+                            <span>95%</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-award"></i> NTSE Scholar
+                            <span>2017</span>
+                        </li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h2><i class="fas fa-tools"></i> Skills</h2>
+                    <ul>
+                        <li><i class="fab fa-html5"></i> HTML/CSS <span>90%</span></li>
+                        <li><i class="fab fa-js"></i> JavaScript <span>30%</span></li>
+                        <li><i class="fab fa-python"></i> Python <span>30%</span></li>
+                        <li><i class="fas fa-palette"></i> Art & Design <span>98%</span></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h2><i class="fas fa-star"></i> Extra Curriculars</h2>
+                    <ul>
+                        <li><i class="fas fa-futbol"></i> State Level Football Player</li>
+                        <li><i class="fas fa-trophy"></i> Inter House Art and Science Competition Winner</li>
+                        <li><i class="fas fa-pencil-alt"></i> Professional Sketch Artist</li>
+                        <li><i class="fas fa-calendar-alt"></i> Organized School Annual Day (2022)</li>
+                        <li><i class="fas fa-microscope"></i> Event Coordinator for Science Exhibition</li>
+                        <li><i class="fas fa-theater-masks"></i> Led Cultural Festival Organization</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <div class="footer-bottom-content">
+                    <div class="creative-text">
+                        <i class="fas fa-magic"></i> Crafting Digital Experiences with Passion
+                    </div>
+                    <div class="copyright-text">
+                        <i class="fas fa-code copyright-icon"></i>
+                        <span>Created with</span>
+                        <i class="fas fa-heart heart-icon"></i>
+                        <span>by Amanjeet &copy; 2024</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <button class="scroll-top">
+        <i class="ri-arrow-up-s-line"></i>
+    </button>
+    <script src="js/background.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
