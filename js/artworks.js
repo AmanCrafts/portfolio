@@ -1,25 +1,42 @@
 document.addEventListener('DOMContentLoaded', function() {
-    const galleryItems = document.querySelectorAll('.gallery-item');
+    // Check if device is touch-enabled
+    const isTouchDevice = ('ontouchstart' in window) || (navigator.maxTouchPoints > 0);
+    
+    if (isTouchDevice) {
+        const galleryItems = document.querySelectorAll('.gallery-item');
+        let activeItem = null;
 
-    // Function to handle image loading
-    function handleImageLoad(item) {
-        const img = item.querySelector('img');
-        
-        if (img) {
-            // If image is already cached, remove skeleton immediately
-            if (img.complete) {
-                item.classList.add('loaded');
-            } else {
-                // Wait for image to load
-                img.onload = () => {
-                    item.classList.add('loaded');
-                };
+        // Add click event listener to document to close active item when clicking outside
+        document.addEventListener('click', function(e) {
+            if (activeItem && !activeItem.contains(e.target)) {
+                activeItem.classList.remove('active');
+                activeItem = null;
             }
-        }
-    }
+        });
 
-    // Initialize loading handling for all gallery items
-    galleryItems.forEach(handleImageLoad);
+        // Add click handlers to gallery items
+        galleryItems.forEach(item => {
+            item.addEventListener('click', function(e) {
+                e.stopPropagation(); // Prevent document click from immediately closing
+                
+                // If this item is already active, deactivate it
+                if (this === activeItem) {
+                    this.classList.remove('active');
+                    activeItem = null;
+                    return;
+                }
+                
+                // Deactivate previous active item
+                if (activeItem) {
+                    activeItem.classList.remove('active');
+                }
+                
+                // Activate this item
+                this.classList.add('active');
+                activeItem = this;
+            });
+        });
+    }
 }); 
 
 // document.addEventListener('DOMContentLoaded', function() {
