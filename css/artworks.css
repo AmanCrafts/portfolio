@@ -1,7 +1,8 @@
+
 /* ==========================================================================
    Base Styles and Layout
    ========================================================================== */
-main {
+   main {
     position: relative;
     min-height: 100vh;
     padding: 70px 20px;
@@ -283,7 +284,5 @@ main::before {
         gap: 15px;
     }
 }
-
-
-
+/* Artworks/Sketches Page Styling */
 
