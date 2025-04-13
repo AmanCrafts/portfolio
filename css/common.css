@@ -128,6 +128,7 @@ header .container {
 .desktop-nav ul li:nth-child(1) { animation-delay: 0.3s; }
 .desktop-nav ul li:nth-child(2) { animation-delay: 0.4s; }
 .desktop-nav ul li:nth-child(3) { animation-delay: 0.5s; }
+.desktop-nav ul li:nth-child(4) { animation-delay: 0.6s; }
 
 .desktop-nav ul li a {
     color: white;
@@ -204,9 +205,10 @@ header .container {
 }
 
 /* Custom Colors for Each Link */
-.desktop-nav ul li:nth-child(1) a:hover i { animation: bounce 0.5s ease infinite; }
+.desktop-nav ul li:nth-child(1) a:hover i { animation: bounce 2s ease infinite; }
 .desktop-nav ul li:nth-child(2) a:hover i { animation: spin 1s ease infinite; }
 .desktop-nav ul li:nth-child(3) a:hover i { animation: pulse 1s ease infinite; }
+.desktop-nav ul li:nth-child(4) a:hover i { animation: pulseRing 1s ease infinite; }
 
 /* ------------------------------ Hamburger Menu ------------------------------ */
 .hamburger {
@@ -526,6 +528,12 @@ header .container {
     0% { transform: scale(1); }
     50% { transform: scale(1.2); }
     100% { transform: scale(1); }
+}
+
+@keyframes pulseRing {
+    0% { transform: scale(0.7); opacity: 0.6; }
+    50% { transform: scale(1.2); opacity: 0; }
+    100% { transform: scale(0.7); }
 }
 
 @keyframes rippleEffect {
