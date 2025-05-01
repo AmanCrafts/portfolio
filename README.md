@@ -20,4 +20,4 @@ Welcome to my personal portfolio website! This site showcases my work, projects,
 - [GitHub](https://github.com/AmanCrafts)
 
 ---
-Made with ❤️ by **Amanjeet**
+Crafted with ❤️ by **AmanCrafts**
